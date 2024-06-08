@@ -40,7 +40,7 @@ echo "Adding Raspberrypi.org Repo"
 echo "deb http://archive.raspberrypi.org/debian/ buster main ui
 deb-src http://archive.raspberrypi.org/debian/ buster main ui
 " >> /etc/apt/sources.list.d/raspi.list
-echo "deb http://deb.debian.org/debian buster-backports main non-free
+echo "deb http://archive.debian.org/debian buster-backports main non-free
 " >> /etc/apt/sources.list.d/backports.list
 
 
